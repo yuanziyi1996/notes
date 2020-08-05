@@ -9,6 +9,7 @@
 
 public void someMethod(){}
 ```
+
 或者
 
 ```java
@@ -17,7 +18,7 @@ public @PostConstruct void someMethod(){}
 
 * 被@PostConstruct修饰的方法会在服务器加载Servlet的时候运行，并且只会被服务器执行一次。PostConstruct在构造函数之后执行，init（）方法之前执行。PreDestroy（）方法在destroy（）方法知性之后执行
 
-![PostConstruct执行流程](https://upload-images.jianshu.io/upload_images/7987747-143d3cc59a925d87.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
+![PostConstruct执行流程](./image/@PostConstruct流程图.png)
 
 ## spring中Constructor、@Autowired、@PostConstruct的顺序
 

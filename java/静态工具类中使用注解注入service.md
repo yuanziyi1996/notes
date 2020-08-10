@@ -3,6 +3,7 @@
 一般需要在一个工具类中使用@Autowired 注解注入一个service。但是由于工具类方法一般都写成static，所以直接注入就存在问题。
 
 使用如下方式可以解决：
+
 ```java
 /**
  * @author ziyi.yuan

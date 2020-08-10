@@ -152,4 +152,4 @@ producer 写入消息序列图如下所示：
 
 物理上把 topic 分成一个或多个 patition（对应 server.properties 中的 num.partitions=3 配置），每个 patition 物理上对应一个文件夹（该文件夹存储该 patition 的所有消息和索引文件），如下：
 
-![patition的所有消息和索引文件]()
+![patition的所有消息和索引文件](../image/patition的所有消息和索引文件.png)

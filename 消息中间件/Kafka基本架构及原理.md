@@ -180,7 +180,7 @@ producer 写入消息序列图如下所示：
 #### 4.3.2 删除 topic
 
 删除 topic 的序列图如下所示：
-![kafka删除tipic](../image/kafka创建topic.png)
+![kafka删除tipic](../image/kafka删除topic.png)
 
 流程说明：
 
